@@ -114,7 +114,7 @@ footer {
 }
 
 .progress {
-    width: 33.33%;
+    width: 0%;
     height: 100%;
     background-color: #6c5ce7;
     border-radius: 10px;
@@ -164,11 +164,4 @@ footer {
 .delete-btn:hover {
     background-color: #ffeaea;
     color: #d63031;
-}
-
-#emptyMessage {
-    text-align: center;
-    color: #888;
-    padding: 30px 10px;
-    font-size: 15px;
 }
