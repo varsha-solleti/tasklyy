@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tasklyy</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Tasklyy</h1>
+            <p>Plan your day, boost your productivity</p>
+        </header>
+        <main>
+            <section>
+                <h2>My Tasks</h2>
+                <div>
+                <input type="text" id="taskInput" placeholder="What do you need to do?">
+                <button id="addTaskBtn">Add Task</button>
+                </div>
+            </section>
+            <section>
+                <h2>Today's Tasks</h2>
+                <div id="taskList">
+
+    <div class="task">
+        <input type="checkbox">
+        <label>Study DBMS</label>
+        <button class="delete-btn">🗑️</button>
+    </div>
+
+    <div class="task">
+        <input type="checkbox">
+        <label>Practice Java</label>
+        <button class="delete-btn">🗑️</button>
+    </div>
+
+    <div class="task">
+        <input type="checkbox">
+        <label>Finish assignment</label>
+        <button class="delete-btn">🗑️</button>
+    </div>
+
+</div>
+
+            </section>
+        </main>
+            <footer>
+    <p id="remainingTasks">2 tasks remaining</p>
+
+    <div class="progress-bar">
+        <div class="progress"></div>
+    </div>
+
+    <p id="completedTasks">1 of 3 tasks completed</p>
+</footer>
+            
+    </body>
+</html>
