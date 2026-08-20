@@ -102,7 +102,7 @@ button:hover {
 footer {
     max-width: 700px;
     margin: 0 auto;
-    padding: 0 20px 30px;
+    padding: 0 20px 15px;
     text-align: center;
     color: #666;
 }
@@ -143,10 +143,11 @@ footer {
     }
 
     main {
-        width: 100%;
-        padding: 10px;
-        margin: 10px auto;
-    }
+    width: 100%;
+    padding: 10px 10px 0;
+    margin: 10px auto 0;
+}
+
 
     section {
         width: 100%;
@@ -154,10 +155,16 @@ footer {
         margin-bottom: 15px;
     }
 
+   
+
     section > div {
         flex-direction: column;
         gap: 10px;
     }
+    section > #taskList {
+    display: block;
+    width: 100%;
+}
 
     #taskInput,
     #addTaskBtn {
@@ -184,10 +191,10 @@ footer {
         margin: 12px 0;
     }
 
-    footer {
-        width: 100%;
-        padding: 0 15px 30px;
-    }
+footer {
+    width: 100%;
+    padding: 0 15px 5px;
+}
 }
 
 .delete-btn {
