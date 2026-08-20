@@ -64,7 +64,10 @@ button {
 button:hover {
     background-color: #5848d6;
 }
-
+#taskList {
+    display: block;
+    width: 100%;
+}
 .task {
     display: flex;
     align-items: center;
@@ -161,11 +164,7 @@ footer {
     width: 100%;
 }
 
-    #taskList {
-        display: flex;
-        flex-direction: column;
-        gap: 8px;
-    }
+    
 
     .task {
         width: 100%;
